@@ -1,0 +1,12 @@
+title,slug,meta_title,meta_description,body_html,primary_keyword,publish_date,category
+How to Audit a WordPress Site in One Afternoon,how-to-audit-a-wordpress-site,WordPress Site Audit: A One-Afternoon Checklist,"A practical, step-by-step WordPress audit you can finish in an afternoon, covering speed, SEO basics, security and content.","<h2>Why audit?</h2><p>Most sites drift. Here is a checklist, with ""quick wins"" first.</p>
+<ul><li>Speed</li><li>Security</li></ul>",wordpress site audit,2027-01-15T09:00:00Z,guides
+Weekly SEO News Roundup,weekly-seo-news-roundup,Weekly SEO News Roundup,"The most important search news of the week, summarized in five minutes.","<p>This week in search: core update rumours, a new Search Console report, and more.</p>",seo news,2027-01-16,news
+,missing-title-row,Missing Title,"This row has no title and should be flagged as missing a required field.","<p>Body is present.</p>",missing title,2027-02-01T10:00:00Z,blog
+Slug With Invalid Characters,Slug_With Spaces!,Slug Problems,"The slug on this row contains uppercase letters, an underscore, a space and punctuation.","<p>Body.</p>",invalid slug,2027-02-01T10:00:00Z,blog
+Meta Description Too Long,meta-description-too-long,Meta Description Too Long,"This meta description is intentionally longer than the one hundred and sixty character limit so that the validator flags it as too long for a search snippet. Extra words.","<p>Body.</p>",long meta description,2027-02-01T10:00:00Z,blog
+This Title Is Intentionally Longer Than Sixty Characters So It Fails,title-too-long,Title Too Long,"The title on this row is over sixty characters.","<p>Body.</p>",long title,2027-02-01T10:00:00Z,guides
+Published Yesterday,published-yesterday,Published Yesterday,"The publish date on this row is in the past and must be rejected.","<p>Body.</p>",past date,2020-01-01T00:00:00Z,news
+Category Not Allowed,category-not-allowed,Category Not Allowed,"The category on this row is not in the allow-list.","<p>Body.</p>",bad category,2027-02-01T10:00:00Z,press-releases
+Exactly Sixty Characters Long Title Sits Right At The Limit!,exactly-sixty-chars,Boundary Title,"This row is valid: the title is exactly sixty characters and the meta description is well within the limit.","<p>Boundary case body.</p>",boundary,2027-03-01T08:30:00+02:00,blog
+Several Problems At Once,BAD SLUG,Several Problems,"Short meta.","",several problems,not-a-date,sports
