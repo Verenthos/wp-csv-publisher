@@ -1,0 +1,24 @@
+.env
+*.log
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.egg-info/
+.coverage
+coverage/
+.DS_Store
+Thumbs.db
+# Private prep material. Never commit any of these, even by accident.
+prep/
+NOTES.md
+INTERVIEW-PREP.md
+REQUIREMENTS.md
+FINAL-REVIEW.md
+
+
+# Run output
+report.csv

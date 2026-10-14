@@ -1,0 +1,19 @@
+{
+  "name": "wp-csv-publisher",
+  "version": "1.0.0",
+  "description": "Validates a CSV of articles and schedules them on a WordPress site through the REST API, with a per-row report.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node --env-file=.env publish-articles.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "mock-server": "node mock/mock-wp-server.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.5.1"
+  }
+}
